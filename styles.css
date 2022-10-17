@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0 0 0 0;
+}
+
+.left{
+    width: max(100px, 66vh);
+    background-image: url(/roan-lavery-lvy_VvdLmnA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right{
+
+}
