@@ -21,7 +21,7 @@
      height: 100vh;
  }
 
-.left{
+.left {
     width: 40vw;
     min-height: 300px;
     flex-grow: 1;
@@ -30,6 +30,22 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+}
+
+.left div {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+a:active{
+    color: aliceblue;
+}
+a:visited {
+    color: aliceblue;
 }
 
 .right{
