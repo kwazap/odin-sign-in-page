@@ -1,3 +1,10 @@
+ @font-face {
+    font-family: elf;
+    src: url(Acadian_Runes-Regular_PERSONAL_USE.ttf);
+ }
+ 
+ 
+ 
  html,
  body {
      width: 100%;
@@ -33,7 +40,30 @@
     position: relative;
 }
 
-.left div {
+.logo-container {
+    width: 100%;
+    height: max(100px, 20%);
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top:25%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 80%;
+    align-self: center;
+}
+
+.logo-text{
+    font-family: elf;
+    color: aliceblue;
+    font-size: 7rem;
+    align-self: center;
+    margin-left: 1rem;
+}
+
+.credit {
     width: 100%;
     position: absolute;
     bottom: 0;
