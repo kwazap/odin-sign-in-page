@@ -13,6 +13,11 @@
      padding: 0px;
  }
 
+ body {
+    background-color: rgb(243, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
 
  html body {
      font-size: 1.2rem;
@@ -71,10 +76,10 @@ img {
     color: aliceblue;
 }
 
-a:active{
+.left a:active{
     color: aliceblue;
 }
-a:visited {
+.left a:visited {
     color: aliceblue;
 }
 
@@ -88,18 +93,69 @@ a:visited {
 
 .section-1{
     font-size: 20px;
-    padding: 8vh 32px 0px 32px;
+    padding: 8vh 32px 0px 64px;
     font-weight: bold;
+    max-width: 40rem;
 }
 
 form{
-    padding: 32px;
-    background-color: white;
-    display: inline-block;
-    border: 3px solid white
+    padding: 16px 16px 16px 64px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
 }
 
 .section-3{
     padding-bottom: 15vh;
-    padding-left: 32px;
+    padding-left: 64px;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-content: flex-start;
+    max-width: 800px;
+}
+
+label {
+    width: 200px;
+    margin: 16px 128px 16px 0px;
+    font-size: 0.8rem;
+    color:rgb(78, 78, 78);
+    font-weight: bold;
+}
+
+input {
+    width: 200px;
+    height: 22px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+input:focus{
+    outline-color: #3c633b;
+}
+
+button{
+    border-radius: 6px;
+    background-color: #3c633b;
+    color: white;
+    border: 3px solid #3c633b;
+    font-weight: bold;
+    padding: 12px 34px;
+    font-size: 1.2rem;
+    box-shadow: 8px 8px 16px rgb(187, 187, 187);
+    margin-bottom: 20px;
+}
+
+button:hover {
+    border: 3px solid #000000;
+}
+
+.section-3 a{
+    color:#3c633b;
+    text-decoration: none;
+    font-weight: bold;
 }
