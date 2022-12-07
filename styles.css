@@ -105,6 +105,10 @@ form{
     background-color: rgb(255, 255, 255);
 }
 
+form h2 {
+    color: rgb(78, 78, 78);
+}
+
 .section-3{
     padding-bottom: 15vh;
     padding-left: 64px;
@@ -158,4 +162,12 @@ button:hover {
     color:#3c633b;
     text-decoration: none;
     font-weight: bold;
+}
+
+input:invalid{
+    outline-color: red;
+}
+
+input:valid {
+    outline-color:#80d37f;
 }
